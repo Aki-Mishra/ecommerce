@@ -3,7 +3,7 @@ const createFotter = ()=>{
     // console.log(footer)
     footer.innerHTML = `
     <div class="footer-content">
-    <img src="../img/light-logo.png" alt="" class="footer-logo">
+    <img src="img/light-logo.png" alt="" class="footer-logo">
     <div class="footer-ul-container">
         <ul class="category">
             <li class="category-title">men</li>
