@@ -2,7 +2,7 @@ const createnav = () => {
     let nav = document.querySelector('.navbar')
     nav.innerHTML = `
     <div class="nav">
-    <img src="../img/dark-logo.png" alt="" class="brand-logo">
+    <img src="img/dark-logo.png" alt="" class="brand-logo">
     <div class="nav-items">
         <div class="search">
             <input type="text" placeholder="search brand, product" class="search-box">
@@ -15,7 +15,7 @@ const createnav = () => {
                 <button class="login-logout-btn">login</button>
             </div>
         </a>
-        <a href="/cart" target="_blank"><img src="../img/cart.png"></img></a>
+        <a href="/cart" target="_blank"><img src="img/cart.png"></img></a>
     </div>
 </div>
 <div class="nav-link-container">
