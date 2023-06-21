@@ -31,7 +31,7 @@ const createnav = () => {
 }
 
 createnav()
-document.cookie = 'MyName' +'=' +'akshat';
+// document.cookie = 'MyName' +'=' +'akshat';
 document.cookie =  'MyName =; Path=/; Expires=Thu, 1 Jan 1970 00:00:01 GMT; ';
 
 
