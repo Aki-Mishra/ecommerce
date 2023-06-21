@@ -9,7 +9,7 @@ const createnav = () => {
             <button class="search-button">search</button>
         </div>
         <a>
-            <img src="../img/user.png" class="user-btn"></img>
+            <img src="img/user.png" class="user-btn"></img>
             <div class="login-logout-popup display-none" >
                 <p class="account-info">login as <span class="user-name">Name</span></p>
                 <button class="login-logout-btn">login</button>
