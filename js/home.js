@@ -62,4 +62,4 @@ const sliderzButtonsWorkingfunc = () => {
 //   `;
 //     sliderzButtonsWorkingfunc();
 // }
-slider
+sliderzButtonsWorkingfunc();
