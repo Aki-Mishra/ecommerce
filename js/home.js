@@ -63,3 +63,15 @@ const sliderzButtonsWorkingfunc = () => {
 //     sliderzButtonsWorkingfunc();
 // }
 sliderzButtonsWorkingfunc();
+fetch('/data/products.json')
+  .then(response => response.json())
+  .then(data => {
+    // Process the retrieved data
+    data.forEach(product => {
+      // Display product information
+      console.log(product.name, product.price, product.description);
+    });
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
