@@ -15,7 +15,7 @@ const createnav = () => {
                 <button class="login-logout-btn">login</button>
             </div>
         </a>
-        <a href="/cart" target="_blank"><img src=""></img></a>
+        <a href="/cart" target="_blank"><img src="img/cart.png"></img></a>
     </div>
 </div>
 <div class="nav-link-container">
@@ -50,7 +50,6 @@ userBtn.addEventListener('click', () => {
 window.onload = () => {
     let user = localStorage.getItem('clothingUser')
     user = JSON.parse(user);
-
     if (user != null) { // means user is loged in
         accountInfo.innerHTML = `loged in as <span class="user-name">${user.name}</span>`
         loginBtn.innerHTML = 'logout'
