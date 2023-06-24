@@ -66,7 +66,7 @@ sliderzButtonsWorkingfunc();
 fetch('https://cdn.rawgit.com/Aki-Mishra/ecommerce/main/data/product.json')
   .then(response => response.json())
   .then(data => {
-    console.log(data);
+    console.log("the data is " + data);
   })
   .catch(error => {
     console.error('Error:', error);
