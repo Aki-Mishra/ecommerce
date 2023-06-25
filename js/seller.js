@@ -4,15 +4,15 @@ let user = JSON.parse(localStorage.getItem('clothingUser'))
 console.log(user)
 window.onload = () => {
     localStorage.removeItem('productData')
-    if (user == null) {
-        location.href = '/login'
-    }
-    else if (user.seller == true) {
+    // if (user == null) {
+    //     location.href = '/login'
+    // }
+    // else if (user.seller == true) {
         loader.classList.remove('display-none')
-        becomeSeller.classList.add('display-none')
+        // becomeSeller.classList.add('display-none')
         productListing.classList.remove('display-none')
         productSetup();
-    }
+    // }
 
 }
 
