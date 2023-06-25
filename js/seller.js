@@ -2,8 +2,8 @@
 
 let user = JSON.parse(localStorage.getItem('clothingUser'))
 console.log(user)
-window.onload = () => {
-    localStorage.removeItem('productData')
+// window.onload = () => {
+//     localStorage.removeItem('productData')
     // if (user == null) {
     //     location.href = '/login'
     // }
@@ -14,7 +14,7 @@ window.onload = () => {
         productSetup();
     // }
 
-}
+// }
 
 const alertBox = document.querySelector('.alert-box')
 const becomeSeller = document.querySelector('.become-seller')
